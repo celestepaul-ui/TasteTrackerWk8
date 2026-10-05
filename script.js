@@ -84,6 +84,19 @@ console.log(longFoodNames);
 
 // 8. Create another array shortFoodNames for foods 6 characters or shorter.
 
+let shortFoodNames = [];
+
+for (let i = 0; i < friendFavorites.length; i++) {
+
+  if (friendFavorites[i].length <= 6) {
+
+    shortFoodNames.push(friendFavorites[i]);
+
+  }
+}
+
+console.log(shortFoodNames);
+
 
 
 // 9. Print both arrays and compare:
